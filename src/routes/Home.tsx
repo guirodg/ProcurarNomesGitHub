@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div>
       <Search loadUser={loadUser}/>
-      {user && <p>{user.login}</p>}
+      {user && <p className="text-3xl font-bold underline">{user.login}</p>}
     </div>
   )
 }
